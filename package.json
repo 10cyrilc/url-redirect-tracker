@@ -1,0 +1,30 @@
+{
+  "name": "url-redirect",
+  "version": "1.0.0",
+  "description": "Simple app to track url redirects",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/10cyrilc/url-redirect-tracker.git"
+  },
+  "keywords": [
+    "url",
+    "redirect",
+    "track"
+  ],
+  "author": "10cyrilc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/10cyrilc/url-redirect-tracker/issues"
+  },
+  "homepage": "https://github.com/10cyrilc/url-redirect-tracker#readme",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
